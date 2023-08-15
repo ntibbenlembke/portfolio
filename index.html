@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noah portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/Nicon.ico">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
@@ -42,7 +43,7 @@
                 <a href="#">About</a>
                 <a href="#">My Skills</a>
                 <a href="#">Work</a>
-                <a href="#">Blog</a>
+                <a href="#">Experience</a>
                 <a href="#contact-me">Contact</a>
             </nav>
             <!--social icons-->
@@ -160,9 +161,9 @@
             <!--magic wall 5-->
             <li>
                 <div class="magic-wall_item lazyload">
-                    <img src="images/five.png" alt="image">
+                    <img src="images/wordlelight.png" alt="image">
                     <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
+                    <a href="#popup5" class="colorbox"></a>
                 </div>
             </li>
             <!--magic wall 6-->
@@ -268,13 +269,31 @@
             <h5>January 2023</h5>    
             <div class="content">
                 <ul>
-                    <li>Created a new interface for Anansi, a St. Olaf Computer Science Department website used to teach C++ workflow to intro CS students</li>
+                    <li>Designed a brand identify system for an imaginary company as a part of a graphic design course</li>
                     <li>Recreated workflow to be more beginner-friendly by removing the need to learn a secondary markup language</li>
                     <li>HTML, CSS, Javascript</li>
                 </ul>
             </div>
-            <div class="alternateimagediv">
+            <div class="railimagediv">
                 <img src="images/renorailicons.png" alt="image">
+            </div>
+        </div>
+    </div>
+    <div id="popup5" class="overlay">
+        <div class="popup">
+            <h2>Wordle Clone</h2>
+            <a class="close" href="#section-work">&times;</a>
+            <h4>Personal Project</h4>
+            <h5>July 2023</h5>    
+            <div class="content">
+                <ul>
+                    <li>Created a neumorphism-inspired clone of the New York Time's Wordle, including dark mode</li>
+                    <li>This served as a practice project to help me better understand Javascript and CSS</li>
+                    <li>HTML, CSS, Javascript</li>
+                </ul>
+            </div>
+            <div class="wordleimagediv">
+                <img src="images/wordledark.png" alt="image">
             </div>
         </div>
     </div>
@@ -321,11 +340,48 @@
     </section>
 
     <section id="section-blog" class="section-blog">
-        <div class="fake-big-2">Blog</div>
-        <div class="blog-articles">
+        <div class="fake-big-2">Experience</div>
+        <div class="timelinecontainer">
+            <div class="timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date">20th may, 2010</h3>
+                    <h1>Heading 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date">20th may, 2010</h3>
+                    <h1>Heading 2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date">20th may, 2010</h3>
+                    <h1>Heading 3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date">20th may, 2010</h3>
+                    <h1>Heading 4</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+       
+       
+       
+        <!--  <div class="blog-articles"> -->
             
             <!-- blog-article 1 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -338,9 +394,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 2 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -353,9 +409,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 2 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+           <!--  <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -368,9 +424,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 3 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -383,9 +439,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 4 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -398,9 +454,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 5 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -413,9 +469,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 6 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -428,9 +484,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 7 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+           <!--  <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -443,9 +499,9 @@
                     </div>
                 </div>
 
-            </article>
+            </article> -->
             <!-- blog-article 8 -->
-            <article class="post-articles" style="border-top: 2px solid #81d8f7">
+            <!-- <article class="post-articles" style="border-top: 2px solid #81d8f7">
                 <div class="post-content">
                     <time class="post-date" style="color: #81d8f7">Computer Science</time>
                     <div class="blog-post-title">
@@ -458,8 +514,8 @@
                     </div>
                 </div>
 
-            </article>
-        </div>
+            </article> -->
+        <!-- </div> -->
     </section>
 
     <!-- contact section -->
