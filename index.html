@@ -28,6 +28,13 @@
         </div>
     </header>
 
+    <!-- background shapes -->
+    <div class="shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
     <!-- sidebar-->
     <aside class="aside">
         <div class="aside-wrapper">
@@ -40,21 +47,20 @@
             </div>
 
             <nav class="nav-links">
-                <a href="#">About</a>
-                <a href="#">My Skills</a>
                 <a href="#section-work">Projects</a>
-                <a href="#">Experience</a>
+                <a href="#section-about">About</a>
+                <a href="#section-resume">Experience</a>
                 <a href="#contact-me">Contact</a>
             </nav>
             <!--social icons-->
             <ul class="social-icons">
                 <li>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/noah-tibben-lembke-6b962319a/" target="_blank">
                         <i class="fa fa-linkedin"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://github.com/ntibbenlembke" target="_blank">
                         <i class="fa fa-github"></i>
                     </a>
                 </li>
@@ -115,7 +121,7 @@
                 </div>
             </a>
         </div>
-        <div class="fake-big-2">Work</div>
+        <div class="fake-big-2">Projects</div>
     </section>
 
     <!-- project wall section-->
@@ -203,6 +209,8 @@
             </li>
         </ul>
     </div>
+    <div class="popups" id="popups">
+        
     <div id="popup1" class="overlay">
         <div class="popup">
             <h2>Publicis Sapient</h2>
@@ -292,6 +300,7 @@
             </div>
         </div>
     </div>
+    </div>
 
     <!-- about me section-->
     <section id="section-about">
@@ -336,42 +345,44 @@
         </div>
     </section>
 
-    <section id="section-blog" class="section-blog">
+    <section id="section-resume" class="section-resume">
         <div class="fake-big-2">Experience</div>
 
         <div class="timelinecontainer">
             <div class="timeline">
               <ul>
                 <li>
+                    <div class="timeline-content">
+                      <h3 class="date">June 2023-August 2023</h3>
+                      <h1>Audio Engineer &#x2022; Sacramento Mandarins</h1>
+                      <p>Worked as both an A1 and A2 for a drum and bugle corps stadium tour. Maintained an operated a 
+                        system run through an Allen & Heath SQ-7.</p>
+                    </div>
+                  </li>
+                
+                <li>
                   <div class="timeline-content">
                     <h3 class="date">June 2022-August 2022</h3>
                     <h1>Software Engineering Intern &#x2022; Publicis Sapient</h1>
                     <p>Created a web application for a large retail client using React, Javascript, Java, SpringBoot, 
                        and Azure. Completed a 5 week full stack certification program focused on DevOps, Java & Web Development,
-                        Databases, and APIs.</p>
-        
-    
+                        Databases, and APIs.</p>  
                   </div>
                 </li>
                 <li>
                   <div class="timeline-content">
-                    <h3 class="date">20th may, 2010</h3>
-                    <h1>Heading 2</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                    <h3 class="date">June 2020-May 2023</h3>
+                    <h1>Tech Production Manager &#x2022; the Lion's Pause</h1>
+                    <p>Responsible for ensuring the success of show and event productions by performing the technical aspects related to the show(s) production. 
+                        Assisted in all aspects of stage operations, including training of all audio engineers. Primarily utilized Yamaha QL5, Behringer X32, and HES Full Boar 4.</p>
                   </div>
                 </li>
                 <li>
                   <div class="timeline-content">
-                    <h3 class="date">20th may, 2010</h3>
-                    <h1>Heading 3</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="timeline-content">
-                    <h3 class="date">20th may, 2010</h3>
-                    <h1>Heading 4</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+                    <h3 class="date">September 2020-May 2023</h3>
+                    <h1>Teaching Assistant &#x2022; St. Olaf College</h1>
+                    <p>Held weekly support sessions, graded homework & programming assignments, and monitored student performance in a wide variety of Computer Science and 
+                        Physics Department courses and labs.</p>
                   </div>
                 </li>
               </ul>
@@ -602,5 +613,7 @@
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="index.js"></script>
 </body>
 </html>
