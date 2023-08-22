@@ -1,27 +1,6 @@
 const soundcloud = document.querySelector('.sound-cloud');
 const off = document.querySelector('#off');
 const on = document.querySelector('#on');
-const audio = document.querySelector('#myAudio');
-
-off.addEventListener('click', () => soundTrack('off'));
-on.addEventListener('click', () => soundTrack('on'));
-
-const soundTrack = (soundState) => {
-    if (soundState == 'off') {
-        on.style.display = 'block';
-        off.style.display = 'none';
-        soundcloud.style.color = '#08fdd8';
-        audio.play();
-    }
-    else if (soundState == 'on') {
-        off.style.display = 'block';
-        on.style.display = 'none';
-        soundcloud.style.color = '#f50057';
-        audio.pause();
-    }
-}
-
-//play music functionality
 
 const btnBars = document.querySelector('.bars');
 const btnTimes = document.querySelector('.times');
