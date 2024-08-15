@@ -414,11 +414,13 @@ header{
     flex-wrap: wrap;
 }
 .fake-magicwall ul li{
-    width: 161px;
-    height: 160px;
+    width: 300px;
+    height: 225px;
     position: relative;
     overflow: hidden;
     display: list-item;
+    margin: 10px;
+    border-radius: 4px;
 }
 
 .fake-magicwall .magic-wall_item{
@@ -432,9 +434,30 @@ header{
 }
 .fake-magicwall img {
     width:100%;
-    height: 100%;
+    height: 84%;
     object-fit:cover;
 }
+#skilltagbox{
+    position:absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 20px;
+    bottom: 3px;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#skilltag{
+    background-color: rgba(78, 165, 140, 0.2);
+    color: var(--accent);
+    padding: 3px 15px 3px 15px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    z-index: 0;
+}
+
 .fake-magicwall ul li:hover .magic-wall_item{
     transform: scale(1.14);
     -ms-transform: scale(1.14);
@@ -499,14 +522,15 @@ header{
     padding: 0px;
     background: var(--darkgreen-2);
     border-radius: 5px;
-    width: 50%;
-    height: 500px;
+    width: 60%;
+    height: 550px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 5s ease-in-out;
+    z-index: 100;
   }
   .popup h2 {
     color: var(--accent);
@@ -544,7 +568,7 @@ header{
     overflow: auto;
     font-size: 0.8rem;
     position:relative;
-    margin-top: 60px;
+    margin-top: 95px;
     width: 90%;
   }
   .popup .imagediv{
@@ -552,6 +576,7 @@ header{
     height: auto;
     position: relative;
     margin-top: 10px;
+    padding-right: 10px;
   }
 
   .popup .imagediv img {
@@ -563,7 +588,7 @@ header{
     height: 300px;
     width: auto;
     position: relative;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
   .popup .railimagediv img {
@@ -576,7 +601,8 @@ header{
     height: 300px;
     width: auto;
     position: relative;
-    margin-top: 60px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
   .popup .wordleimagediv img {
@@ -863,8 +889,8 @@ header{
         padding-left: 8.5rem;
     }
     .fake-magicwall ul li{
-        width: 242px;
-        height: 236px;
+        width: 300px;
+        height: 225px;
     }
 
     /* popup styling */

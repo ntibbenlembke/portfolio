@@ -95,8 +95,6 @@
                 <p> A small gallery of recent projects chosen by me.
                     I've put them all together to show the wide selection of projects I've worked on.
                     <br>
-                    Want to see more? Visit <a href="#">my work</a> page.
-
                 </p>
             </div>
             <!-- my portfolio button-->
@@ -116,12 +114,46 @@
     <!-- project wall section-->
     <div id="home-magicwall" class="fake-magicwall">
         <ul>
+            <li> 
+                <div class="magic-wall_item lazyload">
+                    <img src="images/og.png" alt="image">
+                    <div class="hover-content"></div>
+                    <a href="#popup0" class="colorbox"></a>
+                    
+                </div>
+                <div id="skilltagbox">
+                    <div id="skilltag">React</div>
+                    <div id="skilltag">JavaScript</div>
+                    <div id="skilltag">Spotify API</div>
+                </div>
+            </li>
+
+            <!--magic wall 5-->
+            <li>
+                <div class="magic-wall_item lazyload">
+                    <img src="images/wordlelight.png" alt="image">
+                    <div class="hover-content"></div>
+                    <a href="#popup5" class="colorbox"></a>
+                </div>
+                <div id="skilltagbox">
+                    <div id="skilltag">HTML</div>
+                    <div id="skilltag">CSS</div>
+                    <div id="skilltag">JavaScript</div>
+                </div>
+            </li>
+            
             <!--magic wall 1-->
             <li> 
                 <div class="magic-wall_item lazyload">
                     <img src="images/pslogo.jpg" alt="image">
                     <div class="hover-content"></div>
                     <a href="#popup1" class="colorbox"></a>
+                    
+                </div>
+                <div id="skilltagbox">
+                    <div id="skilltag">Node.js</div>
+                    <div id="skilltag">React</div>
+                    <div id="skilltag">JavaScript</div>
                 </div>
             </li>
             <!--magic wall 2-->
@@ -131,6 +163,11 @@
                     <div class="hover-content"></div>
                     <a href="#popup2" class="colorbox"></a>
                 </div>
+                <div id="skilltagbox">
+                    <div id="skilltag">C++</div>
+                    <div id="skilltag">React</div>
+                    <div id="skilltag">JavaScript</div>
+                </div>
             </li>
             <!--magic wall 3-->
             <li>
@@ -138,6 +175,11 @@
                     <img src="images/stolaflogo.png" alt="image">
                     <div class="hover-content"></div>
                     <a href="#popup3" class="colorbox"></a>
+                </div>
+                <div id="skilltagbox">
+                    <div id="skilltag">HTML</div>
+                    <div id="skilltag">CSS</div>
+                    <div id="skilltag">JavaScript</div>
                 </div>
             </li>
             <!--magic wall 4-->
@@ -147,148 +189,122 @@
                     <div class="hover-content"></div>
                     <a href="#popup4" class="colorbox"></a>
                 </div>
-            </li>
-            <!--magic wall 5-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/wordlelight.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#popup5" class="colorbox"></a>
+                <div id="skilltagbox">
+                    <div id="skilltag">Adobe Illustrator</div>
                 </div>
             </li>
-            <!--magic wall 6-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/six.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
-                </div>
-            </li>
-            <!--magic wall 7-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/seven.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
-                </div>
-            </li>
-            <!--magic wall 8-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/eight.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
-                </div>
-            </li>
-            <!--magic wall 9-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/nine.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
-                </div>
-            </li>
-            <!--magic wall 10-->
-            <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="images/ten.png" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="#" class="colorbox"></a>
-                </div>
-            </li>
+            
         </ul>
     </div>
     <div class="popups" id="popups">
-        
-    <div id="popup1" class="overlay">
-        <div class="popup">
-            <h2>Publicis Sapient</h2>
-            <a class="close" href="#section-work">&times;</a>
-            <h4>Software Engineering Intern</h4>
-            <h5>June 2022-August 2022</h5>    
-            <div class="content">
-                <ul>
-                    <li>Created a web application for a large retail client utilizing React, Javascript, Java, SpringBoot, Microsoft Azure, Docker, and Kubernetes clusters.</li>
-                    <li>Designed a solution from the client problem statement and partnered with product interns to come up with a tangible solution and present to leadership in a final presentation.</li>
-                </ul>
+        <div id="popup0" class="overlay">
+            <div class="popup">
+                <h2><a href="https://ntiblem-spotify-b59a60c753bb.herokuapp.com/" target="_blank" style="color: #4aa58c; text-decoration:none">Spotify Profile <i class="fa fa-angle-right"></i> </a></h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>Personal Project</h4>
+                <h5>August 2023</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks,
+                            and detailed audio information about each track. Create and save new playlists of recommended tracks based
+                            on your existing playlists and more.</li>
+                        <li>Implemented in React, Express, and Heroku, using the Spotify API</li>
+                    </ul>
+                </div>
+                <div class="imagediv">
+                    <img src="images/spotify-tracks.png" alt="image">
+                </div>
             </div>
-            <div class="imagediv">
-                <img src="images/noahinterns.JPG" alt="image">
-            </div>
-        </div>
-    </div>
-    <div id="popup2" class="overlay">
-        <div class="popup">
-            <h2>React Chess</h2>
-            <a class="close" href="#section-work">&times;</a>
-            <h4>St. Olaf College</h4>
-            <h5>January-June 2021</h5>    
-            <div class="content">
-                <ul>
-                    <li>Created a web application to teach users how to play chess</li>
-                    <li>Working in a team of two students, I was responsible for designing and implementing the user interface</li>
-                    <li>C++, React, Javascript</li>
-                </ul>
-            </div>
-            <div class="imagediv">
-                <img src="images/noahinterns.JPG" alt="image">
-            </div>
-        </div>
-    </div>
-    <div id="popup3" class="overlay">
-        <div class="popup">
-            <h2>CS Capstone Project</h2>
-            <a class="close" href="#section-work">&times;</a>
-            <h4>St. Olaf College</h4>
-            <h5>September-December 2022</h5>    
-            <div class="content">
-                <ul>
-                    <li>Created a new interface for Anansi, a St. Olaf Computer Science Department website used to teach C++ workflow to intro CS students</li>
-                    <li>Recreated workflow to be more beginner-friendly by removing the need to learn a secondary markup language</li>
-                    <li>HTML, CSS, Javascript</li>
-                </ul>
-            </div>
-            <div class="imagediv">
-                <img src="images/capstone.png" alt="image">
+        </div> 
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Publicis Sapient</h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>Software Engineering Intern</h4>
+                <h5>June 2022-August 2022</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Created a web application for a large retail client utilizing React, Javascript, Java, SpringBoot, Microsoft Azure, Docker, and Kubernetes clusters.</li>
+                        <li>Designed a solution from the client problem statement and partnered with product interns to come up with a tangible solution and present to leadership in a final presentation.</li>
+                    </ul>
+                </div>
+                <div class="imagediv">
+                    <img src="images/noahinterns.JPG" alt="image">
+                </div>
             </div>
         </div>
-    </div>
-    <div id="popup4" class="overlay">
-        <div class="popup">
-            <h2>Company Design Project</h2>
-            <a class="close" href="#section-work">&times;</a>
-            <h4>St. Olaf College</h4>
-            <h5>January 2023</h5>    
-            <div class="content">
-                <ul>
-                    <li>Designed a brand identify system for an imaginary company as a part of a graphic design course</li>
-                    <li>Recreated workflow to be more beginner-friendly by removing the need to learn a secondary markup language</li>
-                    <li>HTML, CSS, Javascript</li>
-                </ul>
-            </div>
-            <div class="railimagediv">
-                <img src="images/renorailicons.png" alt="image">
-            </div>
-        </div>
-    </div>
-    <div id="popup5" class="overlay">
-        <div class="popup">
-            <h2>Wordle Clone</h2>
-            <a class="close" href="#section-work">&times;</a>
-            <h4>Personal Project</h4>
-            <h5>July 2023</h5>    
-            <div class="content">
-                <ul>
-                    <li>Created a neumorphism-inspired clone of the New York Time's Wordle, including dark mode</li>
-                    <li>This served as a practice project to help me better understand Javascript and CSS</li>
-                    <li>HTML, CSS, Javascript</li>
-                </ul>
-            </div>
-            <div class="wordleimagediv">
-                <img src="images/wordledark.png" alt="image">
+        <div id="popup2" class="overlay">
+            <div class="popup">
+                <h2>React Chess</h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>St. Olaf College</h4>
+                <h5>January-June 2021</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Created a web application to teach users how to play chess</li>
+                        <li>Working in a team of two students, I was responsible for designing and implementing the user interface</li>
+                        <li>C++, React, Javascript</li>
+                    </ul>
+                </div>
+                <div class="imagediv">
+                    <img src="images/noahinterns.JPG" alt="image">
+                </div>
             </div>
         </div>
-    </div>
+        <div id="popup3" class="overlay">
+            <div class="popup" style="height: 400px;">
+                <h2>CS Capstone Project</h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>St. Olaf College</h4>
+                <h5>September-December 2022</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Created a new interface for Anansi, a St. Olaf Computer Science Department website used to teach C++ workflow to intro CS students</li>
+                        <li>Recreated workflow to be more beginner-friendly by removing the need to learn a secondary markup language</li>
+                        <li>HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+                <div class="imagediv">
+                    <img src="images/capstone.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <div id="popup4" class="overlay">
+            <div class="popup">
+                <h2>Company Design Project</h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>St. Olaf College</h4>
+                <h5>January 2023</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Designed a brand identify system for an imaginary company as a part of a graphic design course</li>
+                        <li>Recreated workflow to be more beginner-friendly by removing the need to learn a secondary markup language</li>
+                        <li>HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+                <div class="railimagediv">
+                    <img src="images/renorailicons.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <div id="popup5" class="overlay">
+            <div class="popup">
+                <h2>Wordle Clone</h2>
+                <a class="close" href="#section-work">&times;</a>
+                <h4>Personal Project</h4>
+                <h5>July 2023</h5>    
+                <div class="content">
+                    <ul>
+                        <li>Created a neumorphism-inspired clone of the New York Time's Wordle, including dark mode</li>
+                        <li>This served as a practice project to help me better understand Javascript and CSS</li>
+                        <li>HTML, CSS, Javascript</li>
+                    </ul>
+                </div>
+                <div class="wordleimagediv">
+                    <img src="images/wordledark.png" alt="image">
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- about me section-->
@@ -342,13 +358,20 @@
               <ul>
                 <li>
                     <div class="timeline-content">
+                      <h3 class="date">October 2023-Present</h3>
+                      <h1>Audio Engineer &#x2022; Sacramento Mandarins</h1>
+                      <p>Worked as both an A1 and A2 for a drum and bugle corps stadium tour. Maintained an operated a 
+                        system run through an Allen & Heath SQ-7.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-content">
                       <h3 class="date">June 2023-August 2023</h3>
                       <h1>Audio Engineer &#x2022; Sacramento Mandarins</h1>
                       <p>Worked as both an A1 and A2 for a drum and bugle corps stadium tour. Maintained an operated a 
                         system run through an Allen & Heath SQ-7.</p>
                     </div>
-                  </li>
-                
+                </li>
                 <li>
                   <div class="timeline-content">
                     <h3 class="date">June 2022-August 2022</h3>
