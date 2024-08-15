@@ -1,2 +1,2 @@
 # portfolio
-Going to try to write and push/pull my first edit here!
+What is wrong with my github rn fr
