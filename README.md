@@ -1,2 +1,2 @@
 # portfolio
-What is wrong with my github rn fr
+To run this locally, run the command 'python -m http.server'
