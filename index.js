@@ -6,16 +6,25 @@ const btnBars = document.querySelector('.bars');
 const btnTimes = document.querySelector('.times');
 const sidenav = document.querySelector('.aside');
 
+function setInitialIconState() {
+    btnBars.style.display = "block";
+    btnTimes.style.display = "none";
+}
+
+function setInitialIconState() {
+    btnBars.style.display = "block";
+    btnTimes.style.display = "none";
+}
+
 btnBars.addEventListener('click', () => sidebarSwap('open'));
 btnTimes.addEventListener('click', () => sidebarSwap('closed'));
 
 const sidebarSwap = (navCondition) => {
-    if (navCondition == 'open') {
+    if (navCondition === 'open') {
         sidenav.classList.add('show-nav');
         btnTimes.style.display = "block";
         btnBars.style.display = "none";
-    }
-    else if (navCondition == 'closed') {
+    } else if (navCondition === 'closed') {
         sidenav.classList.remove('show-nav');
         btnTimes.style.display = "none";
         btnBars.style.display = "block";
