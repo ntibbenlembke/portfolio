@@ -147,6 +147,14 @@ header{
     display: none;
 }
 
+.fas.fa-times {
+    display: none;
+}
+
+.fas.fa-bars {
+    display: block;
+}
+
 /*aside section starts here*/
 .aside{
     width: 100%;
